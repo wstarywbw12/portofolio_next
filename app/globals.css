@@ -2,32 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply font-primary bg-primary text-white leading-loose;
   }
-}
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  .card {
+    @apply bg-slate-800 text-justify hover:bg-accent bg-opacity-10 hover:bg-opacity-10 backdrop-blur-sm hover:backdrop-blur-md rounded-3xl border transition-all duration-500 border-slate-800 hover:border-teal-600  text-white overflow-clip;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .card-img {
+    @apply rounded-xl h-52 duration-500 border group-hover:border-accent brightness-75 group-hover:brightness-110 border-slate-800 group-hover:transition-all group-hover:duration-500 overflow-clip;
+  }
+
+  .card-link {
+    @apply flex justify-between border border-slate-800 group-hover:border-accent flex-wrap px-4 py-3 overflow-clip bg-teal-200 bg-opacity-10 hover:bg-opacity-25 transition-all duration-500 rounded-xl mx-4 cursor-pointer;
+  }
+
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
   }
 }
