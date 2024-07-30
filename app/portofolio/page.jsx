@@ -34,7 +34,7 @@ const projects = [
     image: "/assets/work/thumb1.png",
     live: "https://github.com",
     github: "https://github.com",
-    link: "https://sistempakar.id",
+    link: "sistempakar.id",
   },
   {
     num: "02",
@@ -63,7 +63,7 @@ const projects = [
     image: "/assets/work/thumb2.png",
     live: "https://github.com",
     github: "https://github.com",
-    link: "https://portalberita.id",
+    link: "portalberita.id",
   },
   {
     num: "03",
@@ -92,7 +92,7 @@ const projects = [
     image: "/assets/work/thumb3.png",
     live: "https://github.com",
     github: "https://github.com",
-    link: "https://absensisekolah.id",
+    link: "absensisekolah.id",
   },
   {
     num: "03",
@@ -121,7 +121,7 @@ const projects = [
     image: "/assets/work/thumb4.png",
     live: "https://github.com",
     github: "https://github.com",
-    link: "https://ujiancbt.id",
+    link: "ujiancbt.id",
   },
 ];
 
