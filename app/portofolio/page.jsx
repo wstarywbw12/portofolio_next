@@ -68,7 +68,7 @@ const projects = [
   {
     num: "03",
     category: "Web Development",
-    title: "WEB ABSENSI SEKOLAH",
+    title: "WEB ABSENS QR CODE",
     description:
       "Aplikasi Web Absensi Sekolah dengan QR Code adalah solusi inovatif untuk mempermudah proses absensi siswa di sekolah. Dengan memanfaatkan teknologi QR Code, aplikasi ini memungkinkan guru dan siswa untuk melakukan absensi dengan cepat dan akurat.",
     stack: [
@@ -178,8 +178,7 @@ const Work = () => {
 
                 <div className="flex flex-wrap gap-2 mt-8">
                   <img src="https://svgl-badge.vercel.app/api/Framework/Laravel?theme=dark" />
-                  <img src="https://svgl-badge.vercel.app/api/Library/React?theme=dark" />
-                  <img src="https://svgl-badge.vercel.app/api/Framework/Tailwind%20CSS?theme=dark" />
+                  <img src="https://svgl-badge.vercel.app/api/Framework/Bootstrap?theme=dark" />
                 </div>
               </div>
               <div className="mb-4">
