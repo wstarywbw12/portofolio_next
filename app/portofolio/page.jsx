@@ -92,7 +92,7 @@ const projects = [
     image: "/assets/work/thumb3.png",
     live: "https://github.com",
     github: "https://github.com",
-    link: "absensisekolah.id",
+    link: "absenqrcode.id",
   },
   {
     num: "03",
