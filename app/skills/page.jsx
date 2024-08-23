@@ -150,7 +150,7 @@ const Resume = () => {
                   Web Developer
                 </h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400">
-                  Mei 2024 - Present
+                  Mei 2024 - Agustus 2024
                 </time>
                 <p class="text-justify text-base font-normal text-gray-300">
                   I interned as a web developer, responsible for creating and
@@ -168,7 +168,7 @@ const Resume = () => {
                   Software Tester
                 </h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400">
-                  Mei 2023 - Jun 2023
+                  Mei 2023 - Juni 2023
                 </time>
                 <p class="mb-4 text-justify text-base font-normal text-gray-300">
                   I interned as a Software Tester, responsible for testing the
