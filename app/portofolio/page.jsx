@@ -7,6 +7,19 @@ const projects = [
   {
     id: "01",
     category: "Web Development",
+    title: "WEB Anti Ngoding",
+    description:
+      "Anti Ngoding adalah aplikasi pembelajaran pemrograman yang dirancang khusus untuk pemula yang ingin memulai petualangannya di dunia coding. Dengan pendekatan yang menyenangkan dan interaktif, Anti Ngoding membuat proses belajar coding menjadi lebih mudah dan tidak membosankan.",
+    image: "/assets/work/thumb7.png",
+    techStack: [
+      "https://svgl-badge.vercel.app/api/Framework/Laravel?theme=dark",
+      "https://svgl-badge.vercel.app/api/Framework/Bootstrap?theme=dark",
+    ],
+    link: "spotifyclone.id",
+  },
+  {
+    id: "02",
+    category: "Web Development",
     title: "WEB Spotify Clone",
     description:
       "Spotify Clone is a web-based music streaming platform designed to mimic the core functionalities of the popular Spotify service. It offers users a seamless experience to discover, listen to, and manage their favorite music.",
@@ -18,7 +31,7 @@ const projects = [
     link: "spotifyclone.id",
   },
   {
-    id: "02",
+    id: "03",
     category: "Web Development",
     title: "WEB SISTEM PAKAR",
     description:
@@ -31,7 +44,7 @@ const projects = [
     link: "sistempakar.id",
   },
   {
-    id: "03",
+    id: "04",
     category: "Web Development",
     title: "WEB Order Kuliner",
     description:
@@ -44,7 +57,7 @@ const projects = [
     link: "orderfood.id",
   },
   {
-    id: "04",
+    id: "05",
     category: "Web Development",
     title: "WEB PORTAL BERITA",
     description:
@@ -57,7 +70,7 @@ const projects = [
     link: "portalberita.id",
   },
   {
-    id: "05",
+    id: "06",
     category: "Web Development",
     title: "WEB ABSENS QR CODE",
     description:
@@ -70,7 +83,7 @@ const projects = [
     link: "absenqrcode.id",
   },
   {
-    id: "06",
+    id: "07",
     category: "Web Development",
     title: "WEB UJIAN CBT SEKOLAH",
     description:
@@ -88,7 +101,10 @@ const Work = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" } }}
+      animate={{
+        opacity: 1,
+        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+      }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
       <div className="container mx-auto">
@@ -97,7 +113,10 @@ const Work = () => {
         </h2>
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 mb-5">
           {projects.map((project) => (
-            <div key={project.id} className="card flex flex-col gap-4 p-4 group">
+            <div
+              key={project.id}
+              className="card flex flex-col gap-4 p-4 group"
+            >
               <div className="card-img transition-all duration-500">
                 <img
                   src={project.image}
@@ -108,7 +127,9 @@ const Work = () => {
                 />
               </div>
               <div className="h-full pt-8 px-4">
-                <h1 className="text-2xl font-bold mb-4 text-start">{project.title}</h1>
+                <h1 className="text-2xl font-bold mb-4 text-start">
+                  {project.title}
+                </h1>
                 <p className="text-slate-500">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mt-8">
                   {project.techStack.map((tech, index) => (
@@ -117,7 +138,12 @@ const Work = () => {
                 </div>
               </div>
               <div className="mb-4">
-                <a href={`https://${project.link}`} target="_blank" rel="noopener noreferrer" className="card-link">
+                <a
+                  href={`https://${project.link}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="card-link"
+                >
                   <p>Website</p>
                   <p className="text-teal-400">{project.link}</p>
                 </a>
