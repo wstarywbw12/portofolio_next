@@ -15,7 +15,7 @@ const projects = [
       "https://svgl-badge.vercel.app/api/Framework/Laravel?theme=dark",
       "https://svgl-badge.vercel.app/api/Framework/Bootstrap?theme=dark",
     ],
-    link: "spotifyclone.id",
+    link: "antingoding.id",
   },
   {
     id: "02",
