@@ -17,21 +17,21 @@ const projects = [
     ],
     link: "antingoding.id",
   },
+  // {
+  //   id: "02",
+  //   category: "Web Development",
+  //   title: "WEB Spotify Clone",
+  //   description:
+  //     "Spotify Clone is a web-based music streaming platform designed to mimic the core functionalities of the popular Spotify service. It offers users a seamless experience to discover, listen to, and manage their favorite music.",
+  //   image: "/assets/work/thumb6.png",
+  //   techStack: [
+  //     "https://svgl-badge.vercel.app/api/Library/React?theme=dark",
+  //     "https://svgl-badge.vercel.app/api/Framework/Tailwind%20CSS?theme=dark",
+  //   ],
+  //   link: "spotifyclone.id",
+  // },
   {
     id: "02",
-    category: "Web Development",
-    title: "WEB Spotify Clone",
-    description:
-      "Spotify Clone is a web-based music streaming platform designed to mimic the core functionalities of the popular Spotify service. It offers users a seamless experience to discover, listen to, and manage their favorite music.",
-    image: "/assets/work/thumb6.png",
-    techStack: [
-      "https://svgl-badge.vercel.app/api/Library/React?theme=dark",
-      "https://svgl-badge.vercel.app/api/Framework/Tailwind%20CSS?theme=dark",
-    ],
-    link: "spotifyclone.id",
-  },
-  {
-    id: "03",
     category: "Web Development",
     title: "WEB SISTEM PAKAR",
     description:
@@ -44,7 +44,7 @@ const projects = [
     link: "sistempakar.id",
   },
   {
-    id: "04",
+    id: "03",
     category: "Web Development",
     title: "WEB Order Kuliner",
     description:
@@ -57,7 +57,7 @@ const projects = [
     link: "orderfood.id",
   },
   {
-    id: "05",
+    id: "04",
     category: "Web Development",
     title: "WEB PORTAL BERITA",
     description:
@@ -70,7 +70,7 @@ const projects = [
     link: "portalberita.id",
   },
   {
-    id: "06",
+    id: "05",
     category: "Web Development",
     title: "WEB ABSENS QR CODE",
     description:
@@ -83,7 +83,7 @@ const projects = [
     link: "absenqrcode.id",
   },
   {
-    id: "07",
+    id: "06",
     category: "Web Development",
     title: "WEB UJIAN CBT SEKOLAH",
     description:
