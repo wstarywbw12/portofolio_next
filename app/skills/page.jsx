@@ -149,9 +149,13 @@ const Resume = () => {
                 <h3 class="mb-1 text-lg font-semibold text-white">
                   Web Developer
                 </h3>
-                <time class="block mb-2 text-sm font-normal leading-none text-gray-400">
-                  Mei 2024 - Agustus 2024
-                </time>
+                <div class="flex justify-between align-middle mb-2">
+                  <p class="block text-sm font-normal leading-none text-gray-400">PT Disty Teknologi Indonesia</p>
+                  <time class="block text-sm font-normal leading-none text-gray-400">
+                    08 2024 - 01 2025
+                  </time>
+                </div>
+
                 <p class="text-justify text-base font-normal text-gray-300">
                   I interned as a web developer, responsible for creating and
                   maintaining web applications. My role includes designing user
@@ -164,12 +168,39 @@ const Resume = () => {
             <div class="mb-10 flex w-full md:justify-end justify-start">
               <div class="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-lg relative md:mr-8 md:ml-0 ml-5">
                 <span class="absolute flex items-center justify-center w-6 h-6 bg-gray-200 rounded-full md:-left-3 -left-7 top-1/2 transform -translate-y-1/2 ring-8 ring-gray-900"></span>
+                <h3 class="mb-1 text-lg font-semibold text-white">
+                  Web Developer
+                </h3>
+                <div class="flex justify-between align-middle mb-2">
+                  <p class="block text-sm font-normal leading-none text-gray-400">PT. Winnicode Garuda Teknologi
+                  </p>
+                  <time class="block text-sm font-normal leading-none text-gray-400">
+                    05 2024 - 08 2025
+                  </time>
+                </div>
+                <p class="text-justify text-base font-normal text-gray-300">
+                  I interned as a web developer, responsible for creating and
+                  maintaining web applications. My role includes designing user
+                  interfaces, developing server-side logic, managing databases,
+                  and writing efficient code.
+                </p>
+              </div>
+            </div>
+
+            <div class="mb-10 flex w-full md:justify-start justify-start">
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-lg relative md:ml-8 md:mr-0 ml-5">
+                <span class="md:hidden absolute flex items-center justify-center w-6 h-6 bg-gray-200 rounded-full md:-left-3 -left-7 top-1/2 transform -translate-y-1/2 ring-8 ring-gray-900"></span>
+                <span class="hidden md:block absolute  items-center justify-center w-6 h-6 bg-gray-200 rounded-full -right-3 top-1/2 transform -translate-y-1/2 ring-8 ring-gray-900"></span>
                 <h3 class="flex items-center mb-1 text-lg font-semibold text-white">
                   Software Tester
                 </h3>
-                <time class="block mb-2 text-sm font-normal leading-none text-gray-400">
-                  Mei 2023 - Juni 2023
-                </time>
+                <div class="flex justify-between align-middle mb-2">
+                  <p class="block text-sm font-normal leading-none text-gray-400">Dinas Kesehatan Provinsi JATIM
+                  </p>
+                  <time class="block text-sm font-normal leading-none text-gray-400">
+                    05 2024 - 06 2025
+                  </time>
+                </div>
                 <p class="mb-4 text-justify text-base font-normal text-gray-300">
                   I interned as a Software Tester, responsible for testing the
                   health office information system. My role includes designing
