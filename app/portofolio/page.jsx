@@ -7,6 +7,19 @@ const projects = [
   {
     id: "01",
     category: "Web Development",
+    title: "Sistem Informasi Klinik",
+    description:
+      "Sistem Informasi Klinik adalah solusi digital yang dirancang untuk mengelola data pasien, rekam medis, serta operasional klinik secara efisien dan terstruktur. Dengan adanya integrasi ke SATUSEHAT, sistem ini dapat menghubungkan data pasien dengan platform kesehatan nasional, memungkinkan pertukaran data medis yang lebih aman, cepat, dan akurat antar fasilitas kesehatan.",
+    image: "/assets/work/thumb8.png",
+    techStack: [
+      "https://svgl-badge.vercel.app/api/Framework/Laravel?theme=dark",
+      "https://svgl-badge.vercel.app/api/Framework/Bootstrap?theme=dark",
+    ],
+    link: "kliniksehat.id",
+  },
+  {
+    id: "02",
+    category: "Web Development",
     title: "WEB Anti Ngoding",
     description:
       "Anti Ngoding adalah aplikasi pembelajaran pemrograman yang dirancang khusus untuk pemula yang ingin memulai petualangannya di dunia coding. Dengan pendekatan yang menyenangkan dan interaktif, Anti Ngoding membuat proses belajar coding menjadi lebih mudah dan tidak membosankan.",
@@ -17,21 +30,9 @@ const projects = [
     ],
     link: "antingoding.id",
   },
-  // {
-  //   id: "02",
-  //   category: "Web Development",
-  //   title: "WEB Spotify Clone",
-  //   description:
-  //     "Spotify Clone is a web-based music streaming platform designed to mimic the core functionalities of the popular Spotify service. It offers users a seamless experience to discover, listen to, and manage their favorite music.",
-  //   image: "/assets/work/thumb6.png",
-  //   techStack: [
-  //     "https://svgl-badge.vercel.app/api/Library/React?theme=dark",
-  //     "https://svgl-badge.vercel.app/api/Framework/Tailwind%20CSS?theme=dark",
-  //   ],
-  //   link: "spotifyclone.id",
-  // },
+
   {
-    id: "02",
+    id: "03",
     category: "Web Development",
     title: "WEB SISTEM PAKAR",
     description:
@@ -44,7 +45,7 @@ const projects = [
     link: "sistempakar.id",
   },
   {
-    id: "03",
+    id: "04",
     category: "Web Development",
     title: "WEB Order Kuliner",
     description:
@@ -57,7 +58,7 @@ const projects = [
     link: "orderfood.id",
   },
   {
-    id: "04",
+    id: "05",
     category: "Web Development",
     title: "WEB PORTAL BERITA",
     description:
@@ -70,7 +71,7 @@ const projects = [
     link: "portalberita.id",
   },
   {
-    id: "05",
+    id: "06",
     category: "Web Development",
     title: "WEB ABSENS QR CODE",
     description:
@@ -83,7 +84,7 @@ const projects = [
     link: "absenqrcode.id",
   },
   {
-    id: "06",
+    id: "07",
     category: "Web Development",
     title: "WEB UJIAN CBT SEKOLAH",
     description:
